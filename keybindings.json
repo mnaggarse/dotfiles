@@ -1,0 +1,66 @@
+[
+  {
+    "key": ": w",
+    "command": "workbench.action.files.save"
+  },
+  {
+    "key": ": q",
+    "command": "workbench.action.closeActiveEditor"
+  },
+  {
+    "key": "ctrl+h",
+    "command": "workbench.action.focusSideBar"
+  },
+  {
+    "key": "ctrl+l",
+    "command": "workbench.action.focusLastEditorGroup"
+  },
+  {
+    "key": "ctrl+j",
+    "command": "workbench.action.terminal.focus"
+  },
+  {
+    "key": "ctrl+k",
+    "command": "workbench.action.focusLastEditorGroup"
+  },
+  {
+    "key": "j k",
+    "command": "extension.vim_escape",
+    "when": "editorTextFocus && vim.active && vim.mode == 'Insert'"
+  },
+  {
+    "key": "a",
+    "command": "explorer.newFile",
+    "when": "explorerViewletVisible && filesExplorerFocus"
+  },
+  {
+    "key": "shift+a",
+    "command": "explorer.newFolder",
+    "when": "explorerViewletVisible && filesExplorerFocus"
+  },
+  {
+    "key": "d",
+    "command": "deleteFile",
+    "when": "explorerViewletVisible && filesExplorerFocus"
+  },
+  {
+    "key": "r",
+    "command": "renameFile",
+    "when": "explorerViewletVisible && filesExplorerFocus"
+  },
+  {
+    "key": "x",
+    "command": "filesExplorer.cut",
+    "when": "explorerViewletVisible && filesExplorerFocus"
+  },
+  {
+    "key": "y",
+    "command": "filesExplorer.copy",
+    "when": "explorerViewletVisible && filesExplorerFocus"
+  },
+  {
+    "key": "p",
+    "command": "filesExplorer.paste",
+    "when": "explorerViewletVisible && filesExplorerFocus"
+  }
+]

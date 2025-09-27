@@ -1,0 +1,21 @@
+{
+  "workbench.colorTheme": "Default Dark Modern",
+  "window.zoomLevel": 1,
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.fontSize": 16,
+  "editor.fontFamily": "'Cascadia Code'",
+  "files.autoSave": "afterDelay",
+  "breadcrumbs.enabled": false,
+  "editor.stickyScroll.enabled": false,
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "always",
+    "source.sortImports": "always"
+  },
+  "editor.tabSize": 2,
+  "extensions.experimental.affinity": {
+    "asvetliakov.vscode-neovim": 1
+  },
+  "workbench.layoutControl.enabled": false
+}
