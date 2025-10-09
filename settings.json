@@ -1,21 +1,29 @@
 {
-  "workbench.colorTheme": "Default Dark Modern",
-  "window.zoomLevel": 1,
-  "workbench.iconTheme": "material-icon-theme",
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.formatOnSave": true,
-  "editor.fontSize": 16,
-  "editor.fontFamily": "'Cascadia Code'",
-  "files.autoSave": "afterDelay",
   "breadcrumbs.enabled": false,
-  "editor.stickyScroll.enabled": false,
+  "chat.commandCenter.enabled": false,
+  "diffEditor.codeLens": true,
   "editor.codeActionsOnSave": {
     "source.organizeImports": "always",
     "source.sortImports": "always"
   },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.fontFamily": "'Cascadia Code'",
+  "editor.fontSize": 16,
+  "editor.formatOnSave": true,
+  "editor.minimap.enabled": false,
+  "editor.minimap.renderCharacters": false,
+  "editor.stickyScroll.enabled": false,
   "editor.tabSize": 2,
   "extensions.experimental.affinity": {
     "asvetliakov.vscode-neovim": 1
   },
+  "files.autoSave": "afterDelay",
+  "telemetry.feedback.enabled": false,
+  "vim.useSystemClipboard": true,
+  "window.commandCenter": false,
+  "window.menuBarVisibility": "compact",
+  "window.zoomLevel": 1,
+  "workbench.colorTheme": "Default Dark Modern",
+  "workbench.iconTheme": "material-icon-theme",
   "workbench.layoutControl.enabled": false
 }

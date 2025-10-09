@@ -1,7 +1,6 @@
 vim.g.mapleader = " "
 
 vim.keymap.set("i", "jk", "<esc>", { desc = "Exit insert mode" })
-vim.keymap.set("n", ";", ":")
 
 vim.keymap.set("n", "<leader>w", "<CMD>w<cr>", { desc = "Save" })
 vim.keymap.set("n", "<leader>q", "<CMD>q<cr>", { desc = "Quit" })

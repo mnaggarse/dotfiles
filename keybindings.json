@@ -1,66 +1,121 @@
 [
+  // Save file
   {
-    "key": ": w",
+    "key": ":w",
     "command": "workbench.action.files.save"
   },
+
+  // Close file
   {
-    "key": ": q",
+    "key": ":q",
     "command": "workbench.action.closeActiveEditor"
   },
+
+  // Focus left bar
   {
     "key": "ctrl+h",
     "command": "workbench.action.focusSideBar"
   },
-  {
-    "key": "ctrl+l",
-    "command": "workbench.action.focusLastEditorGroup"
-  },
+
+  // Focus bottom bar
   {
     "key": "ctrl+j",
     "command": "workbench.action.terminal.focus"
   },
+
+  // Focus top bar
   {
     "key": "ctrl+k",
     "command": "workbench.action.focusLastEditorGroup"
   },
+
+  // Focus right bar
+  {
+    "key": "ctrl+l",
+    "command": "workbench.action.focusLastEditorGroup"
+  },
+
+  // Enter normal mode
   {
     "key": "j k",
     "command": "extension.vim_escape",
     "when": "editorTextFocus && vim.active && vim.mode == 'Insert'"
   },
+
+  // Choose next suggestion
   {
-    "key": "a",
-    "command": "explorer.newFile",
-    "when": "explorerViewletVisible && filesExplorerFocus"
+    "key": "ctrl+j",
+    "command": "selectNextSuggestion",
+    "when": "suggestWidgetVisible"
   },
+
+  // Choose previous suggestion
   {
-    "key": "shift+a",
-    "command": "explorer.newFolder",
-    "when": "explorerViewletVisible && filesExplorerFocus"
+    "key": "ctrl+k",
+    "command": "selectPrevSuggestion",
+    "when": "suggestWidgetVisible"
   },
-  {
-    "key": "d",
-    "command": "deleteFile",
-    "when": "explorerViewletVisible && filesExplorerFocus"
-  },
+
+  // Rename file
   {
     "key": "r",
     "command": "renameFile",
-    "when": "explorerViewletVisible && filesExplorerFocus"
+    "when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
   },
+
+  // Create new file
   {
-    "key": "x",
-    "command": "filesExplorer.cut",
-    "when": "explorerViewletVisible && filesExplorerFocus"
+    "key": "a",
+    "command": "explorer.newFile",
+    "when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
   },
+
+  // Create new folder
+  {
+    "key": "shift+a",
+    "command": "explorer.newFolder",
+    "when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
+  },
+
+  // Delete file
+  {
+    "key": "d",
+    "command": "deleteFile",
+    "when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
+  },
+
+  // Copy file
   {
     "key": "y",
     "command": "filesExplorer.copy",
-    "when": "explorerViewletVisible && filesExplorerFocus"
+    "when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
   },
+
+  // Cut file
+  {
+    "key": "x",
+    "command": "filesExplorer.cut",
+    "when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
+  },
+
+  // Paste file
   {
     "key": "p",
     "command": "filesExplorer.paste",
-    "when": "explorerViewletVisible && filesExplorerFocus"
+    "when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
+  },
+
+  // Go to next tab
+  {
+    "key": "tab",
+    "command": "workbench.action.nextEditor",
+    "when": "editorTextFocus && vim.mode == 'Normal'"
+  },
+
+  // Go to previous tab
+  {
+    "key": "shift+tab",
+    "command": "workbench.action.previousEditor",
+    "when": "editorTextFocus && vim.mode == 'Normal'"
   }
 ]
