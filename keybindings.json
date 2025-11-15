@@ -35,13 +35,6 @@
     "command": "workbench.action.focusLastEditorGroup"
   },
 
-  // Enter normal mode
-  {
-    "key": "j k",
-    "command": "extension.vim_escape",
-    "when": "editorTextFocus && vim.active && vim.mode == 'Insert'"
-  },
-
   // Choose next suggestion
   {
     "key": "ctrl+j",
@@ -117,5 +110,12 @@
     "key": "shift+tab",
     "command": "workbench.action.previousEditor",
     "when": "editorTextFocus && vim.mode == 'Normal'"
+  },
+
+  // Show hover
+  {
+    "key": "ctrl+;",
+    "command": "editor.action.showHover",
+    "when": "editorTextFocus"
   }
 ]
