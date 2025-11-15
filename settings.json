@@ -13,17 +13,24 @@
   "editor.minimap.enabled": false,
   "editor.minimap.renderCharacters": false,
   "editor.stickyScroll.enabled": false,
-  "editor.tabSize": 2,
   "extensions.experimental.affinity": {
     "asvetliakov.vscode-neovim": 1
   },
   "files.autoSave": "afterDelay",
+  "reactSnippets.settings.importReactOnTop": false,
   "telemetry.feedback.enabled": false,
+  "vim.insertModeKeyBindings": [
+    {
+      "after": ["<Esc>"],
+      "before": ["j", "k"]
+    }
+  ],
   "vim.useSystemClipboard": true,
   "window.commandCenter": false,
   "window.menuBarVisibility": "compact",
   "window.zoomLevel": 1,
-  "workbench.colorTheme": "Default Dark Modern",
+  "workbench.colorTheme": "Gruvbox Dark Medium",
   "workbench.iconTheme": "material-icon-theme",
-  "workbench.layoutControl.enabled": false
+  "workbench.layoutControl.enabled": false,
+  "workbench.startupEditor": "none"
 }
