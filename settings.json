@@ -4,17 +4,17 @@
   "diffEditor.codeLens": true,
   "editor.codeActionsOnSave": {
     "source.organizeImports": "always",
-    "source.sortImports": "always"
+    "source.sortImports": "always",
   },
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.fontFamily": "'Cascadia Code'",
+  "editor.fontFamily": "Cascadia Code",
   "editor.fontSize": 16,
   "editor.formatOnSave": true,
   "editor.minimap.enabled": false,
   "editor.minimap.renderCharacters": false,
   "editor.stickyScroll.enabled": false,
   "extensions.experimental.affinity": {
-    "asvetliakov.vscode-neovim": 1
+    "asvetliakov.vscode-neovim": 1,
   },
   "files.autoSave": "afterDelay",
   "reactSnippets.settings.importReactOnTop": false,
@@ -22,15 +22,13 @@
   "vim.insertModeKeyBindings": [
     {
       "after": ["<Esc>"],
-      "before": ["j", "k"]
-    }
+      "before": ["j", "k"],
+    },
   ],
   "vim.useSystemClipboard": true,
-  "window.commandCenter": false,
   "window.menuBarVisibility": "compact",
-  "window.zoomLevel": 1,
-  "workbench.colorTheme": "Gruvbox Dark Medium",
-  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Default Dark Modern",
   "workbench.layoutControl.enabled": false,
-  "workbench.startupEditor": "none"
+  "workbench.startupEditor": "none",
+  "editor.linkedEditing": true,
 }
